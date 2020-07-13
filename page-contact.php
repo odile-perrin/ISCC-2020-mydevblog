@@ -29,14 +29,27 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
    <meta charset="utf-8">
 </head>
 <body>
+    <center>
+    <h2>Contact</h2>
    <form method="POST">
    <fieldset>
-   <input type="text" name="nom" placeholder="Votre nom et prénom" /><br />
-      <input type="text" name="mail" placeholder="Votre e-mail" /><br />
-      <textarea name="messag" placeholder="Votre message"></textarea><br />
+   <label for="nom">Votre nom</label>
+    <div id="nom">
+        <input type="text" name="nom" id="nom">
+    </div>
+
+    <label for="mail">Votre mail</label>
+    <div id="mail">
+        <input type="text" name="mail" id="mail">
+    </div>
+   
+    <textarea name="messag" placeholder="Votre message"></textarea><br />
+    
       <input type="submit" value="Envoyer" />
+
     </fieldset> 
    </form>
+</center>
    <br />
    <?php if(isset($message)) { echo $message; } ?>
 </body>
