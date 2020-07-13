@@ -1,5 +1,5 @@
 <?php
-$bdd = new PDO("mysql:localhost;dbname=blog-odile;charset=utf8", "root", "");
+$bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
 if(isset($_POST['article_titre'], $_POST['article_contenu'])) {
    if(!empty($_POST['article_titre']) AND !empty($_POST['article_contenu'])) {
       

@@ -1,6 +1,6 @@
 <?php $page = 'accueil'?>
 <?php
-$bdd = new PDO("mysql:localhost;dbname=blog-odile;charset=utf8", "root", "");
+$bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
 $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC');
 ?>
 <!DOCTYPE html>
@@ -15,6 +15,11 @@ $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC');
       <li><a href="page-articles.php?id=<?= $a['id'] ?>"><?= $a['titre'] ?></a></li>
       <?php } ?>
    <ul>
+   <?php
+    $bdd = new PDO ('mysql:host = localhost;dbname=blog-odile; charset=utf8', 'root', '');
+    $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC LIMIT 0,5');
+    $lastBuildDate = $bdd->query('SELECT date_time_post FROM articles ORDER BY date_time_post DESC LIMIT 0,1');
+    $lastBuildDate = $lastBuildDate->fetch()['date_time_post'];
+?>
 </body>
 </html>
-    </html>
