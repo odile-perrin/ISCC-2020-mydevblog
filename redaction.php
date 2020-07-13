@@ -5,7 +5,7 @@ if(isset($_POST['article_titre'], $_POST['article_contenu'])) {
       
       $article_titre = htmlspecialchars($_POST['article_titre']);
       $article_contenu = htmlspecialchars($_POST['article_contenu']);
-      $ins = $bdd->prepare('INSERT INTO publication_articles (titre, contenu, date_time_publication) VALUES (?, ?, NOW())');
+      $ins = $bdd->prepare('INSERT INTO articles (titre, contenu, date_time_post) VALUES (?, ?, NOW())');
       $ins->execute(array($article_titre, $article_contenu));
       $message = 'Votre article a bien été posté';
    } else {
