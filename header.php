@@ -1,12 +1,13 @@
+<?php 
+echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
 <!doctype html>
 <html>
-<link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <header>
         <center>
-            <img src="article-beaute-maquillage-clean-4.jpg" alt="Bannière mydevblog"
-            width="959.33"
-            height="354.67">
+    
+            <img src="article-beaute-maquillage-clean-4-1.jpg" alt="Bannière mydevblog">
+            
         <BR><h1>Blog d'Odile</h1>
         <a href="http://localhost/ISCC/MyDevBlog/index.php?page=accueil">Accueil</a>
     &nbsp;&nbsp;&nbsp;<a href="http://localhost/ISCC/MyDevBlog/index.php?page=articles">Articles</a>

@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <footer>
         <center><BR><BR>
-        <h2>Contacts</h2>
+
         <a href="https://www.instagram.com/oaguadulce/?hl=fr">
             <img src="logo-instagram.png" alt="Logo corail Instagram"
             width="71.5"
@@ -17,8 +17,8 @@
             <img src="logo-youtube.png" alt="Logo corail YouTube"
             width="71.5"
             height="71.5">
-            </a>
-
+            </a><br>
+        <a href="https://github.com/odile-perrin">GitHub</a>
 
         <BR><BR>©2020 Blog d'Odile
             <BR>Tous droits réservés.
