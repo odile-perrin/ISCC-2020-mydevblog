@@ -15,18 +15,19 @@ $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC');
     <p>Bienvenu sur ce blog !<br>
 Je m'appelle Odile et suis passionnée de cosmétiques. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
 Venez explorer les dernières nouveautés en matière de beauté avec moi ! Prenez 5 mins et économisez de l'argent sur certains produits.
-<br>Odile.
+<br>Odile.<br><br>
     <h3>Mes derniers articles</h3>
-   
+    <div class = "articles">
       <?php while($a = $articles->fetch()) { ?>
       <a href="page-articles.php?id=<?= $a['id'] ?>"><?= $a['titre'] ?></a><br>
       <?php } ?>
 
    <?php
     $bdd = new PDO ('mysql:host = localhost;dbname=blog-odile; charset=utf8', 'root', '');
-    $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC LIMIT 0,5');
+    $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC LIMIT 0,05');
     $lastBuildDate = $bdd->query('SELECT date_time_post FROM articles ORDER BY date_time_post DESC LIMIT 0,1');
     $lastBuildDate = $lastBuildDate->fetch()['date_time_post'];
 ?>
+</div>
 </body>
 </html>

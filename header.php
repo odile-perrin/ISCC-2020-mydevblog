@@ -20,7 +20,6 @@ echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
 
     </header>
     <body>
-        <center>
     <?php
     if($_GET)
     {
@@ -38,6 +37,5 @@ echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
     }
     }
     ?>
-    </center>
     </body>
     </html>

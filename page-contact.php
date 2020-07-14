@@ -33,7 +33,7 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
     <h2>Contact</h2>
    <form method="POST">
    <fieldset>
-   <label for="nom">Votre nom</label>
+   <label for="nom">Votre nom & prénom</label>
     <div id="nom">
         <input type="text" name="nom" id="nom">
     </div>
