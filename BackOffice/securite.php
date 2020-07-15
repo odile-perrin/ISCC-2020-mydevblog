@@ -1,3 +1,5 @@
+<?php 
+echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
 <?php
     $login=$_POST['login'];
     $password=$_POST['password'];

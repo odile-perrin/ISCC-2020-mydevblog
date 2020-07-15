@@ -1,5 +1,5 @@
 <?php
-echo'<link href="style.css" rel="stylesheet" type = "text/css">';
+echo'<link href="style/style.css" rel="stylesheet" type = "text/css">';
 ?>
 
 <!doctype html>
