@@ -1,8 +1,9 @@
+<center>
 <?php $page = 'contact'?>
 <html>
 <link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
-<center>
+
 <?php
 $bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
 if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
@@ -20,7 +21,7 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
    }
 }
 ?>
-</center>
+
 <title>Contact</title>
     <!DOCTYPE html>
 <html>
@@ -29,7 +30,6 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
    <meta charset="utf-8">
 </head>
 <body>
-   <center>
     <h2>Contact</h2>
    <form method="POST">
    <fieldset>
@@ -49,8 +49,8 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
 
     </fieldset> 
    </form>
-</center>
    <br />
    <?php if(isset($message)) { echo $message; } ?>
+   </center>
 </body>
 </html>

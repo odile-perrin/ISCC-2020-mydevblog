@@ -1,6 +1,6 @@
 <center>
 <?php
-echo'<link href="style/style.css" rel="stylesheet" type = "text/css">';
+echo'<link href="style.css" rel="stylesheet" type = "text/css">';
 
 $bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
 if(isset($_POST['titre'], $_POST['red_article'])) {
@@ -19,13 +19,13 @@ if(isset($_POST['titre'], $_POST['red_article'])) {
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Rédaction</title>
+   <title>Rédaction d'un article</title>
    <meta charset="utf-8">
 </head>
 <body>
 <form method="POST">
 <fieldset> 
-
+<p>Rédiger un article :</p>
 <label for="titre">Titre</label>
     <div id="titre">
         <input type="text" name="titre" id="titre">

@@ -1,10 +1,10 @@
 <?php
-echo'<link href="style/style.css" rel="stylesheet" type = "text/css">';
+echo'<link href="style.css" rel="stylesheet" type = "text/css">';
 ?>
 
 <!doctype html>
 <html>
-    <title>Connexion</title>
+    <title>Connexion Admin</title>
     <meta charset="utf-8">
 
 <body>
