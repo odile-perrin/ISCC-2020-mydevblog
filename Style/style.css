@@ -18,7 +18,7 @@ header{
 
 footer{
     font-family: "montserrat-regular";
-    height: 190px;
+    height: 210px;
     width: 100%;
     background-color: #b9755e;
     margin-top: 100px;
@@ -69,7 +69,7 @@ a:hover{
 #blocimage{
         height: 150px;
         width: 100%;
-        background-image:url(article-beaute-maquillage-clean-4-1.jpg);
+        background-image:url(style/article-beaute-maquillage-clean-4-1.jpg);
         background-position: top;
         padding-top: 20px;
     }
@@ -146,7 +146,7 @@ a:hover{
     #red_article:hover{
         border:2px solid #b9755e;
     }
-    
+
 .insta:hover{
     border:2px solid white;
 }
