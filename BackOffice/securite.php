@@ -1,5 +1,4 @@
 <html>
-<link rel="stylesheet" href="style/style.css">
 <?php
     $login=$_POST['login'];
     $password=$_POST['password'];

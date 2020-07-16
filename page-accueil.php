@@ -10,9 +10,9 @@
 <h2>Accueil</h2>
     <h3>Présentation</h3>
     <p>Bienvenu sur ce blog !<br>
-Je m'appelle Odile et suis passionnée de cosmétiques. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
+Nous sommes Eden et Odile, passionnées de cosmétiques, nous avons choisir d'ouvrir ce blog pour vous aider. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
 Venez explorer les dernières nouveautés en matière de beauté avec moi !
-<br>Odile.<br><br>
+<br><br>Eden et Odile.<br><br>
     <div class="bloc">
         <center>
     <h6>Mes derniers articles</h6>

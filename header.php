@@ -6,14 +6,14 @@ echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
 <header>
         <center>
         <div id="blocimage"> 
-        <BR><h1>Blog d'Odile</h1>
+        <BR><h1>Blog d'Oden</h1>
         </div>
     
         <nav class=menu1>
             
-        <a href="http://localhost/ISCC/MyDevBlog/index.php?page=accueil">Accueil</a>
-    &nbsp;&nbsp;&nbsp;<a href="http://localhost/ISCC/MyDevBlog/index.php?page=articles">Articles</a>
-    &nbsp;&nbsp;&nbsp;<a href="http://localhost/ISCC/MyDevBlog/index.php?page=contact">Contact</a>
+        <a href="index.php?page=accueil">Accueil</a>
+    &nbsp;&nbsp;&nbsp;<a href="index.php?page=articles">Articles</a>
+    &nbsp;&nbsp;&nbsp;<a href="index.php?page=contact">Contact</a>
     <BR><BR>
     </center>
     </nav>

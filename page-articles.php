@@ -18,8 +18,9 @@ $requete = "SELECT * FROM articles ORDER BY date_time_post DESC";
       while ($ligne = mysqli_fetch_assoc($resultat)) { 
          $dt_debut = date_create_from_format('Y-m-d H:i:s', $ligne['date_time_post']); 
          echo "<h4>".$ligne['titre']."</h4>"; 
-         echo "<h5>Le ".$dt_debut->format('d/m/Y H:i')."</h5>"; 
-         echo "<p>".$ligne['contenu']."</p><br>"; 
+         echo "<h5>Le ".$dt_debut->format('d/m/Y H:i')."</h5>";
+         echo "<h5>".$ligne['author']."</h5>";
+         echo "<p>".$ligne['contenu']."</p><br>";
       } 
    } 
    ?> 

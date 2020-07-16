@@ -1,5 +1,5 @@
 <center>
-<html><link rel="stylesheet" href="style/style.css"></html>
+<html><link rel="stylesheet" href="style.css"></html>
 <?php
 
 $bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
@@ -26,6 +26,7 @@ if(isset($_POST['titre'], $_POST['red_article'])) {
 <form method="POST">
 <fieldset> 
 <p>Rédiger un article :</p>
+
 <label for="titre">Titre</label>
     <div id="titre">
         <input type="text" name="titre" id="titre">
