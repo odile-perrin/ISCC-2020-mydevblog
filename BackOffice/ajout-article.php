@@ -19,6 +19,7 @@ if(isset($_POST['titre'], $_POST['red_article'])) {
 <!DOCTYPE html>
 <html>
 <head>
+   <?php include "header2.php"?>
    <title>Rédaction d'un article</title>
    <meta charset="utf-8">
 </head>
