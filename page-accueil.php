@@ -9,9 +9,9 @@
 <body>
 <h2>Accueil</h2>
     <h3>Présentation</h3>
-    <p>Bienvenu sur ce blog !<br>
-Nous sommes Eden et Odile, passionnées de cosmétiques, nous avons choisir d'ouvrir ce blog pour vous aider. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
-Venez explorer les dernières nouveautés en matière de beauté avec moi !
+    <p>Bienvenue sur ce blog !<br>
+Nous sommes Eden et Odile, passionnées de cosmétiques, nous avons choisi d'ouvrir ce blog pour vous aider. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
+Venez explorer les dernières nouveautés en matière de beauté avec nous !
 <br><br>Eden et Odile.<br><br>
     <div class="bloc">
         <center>

@@ -8,7 +8,7 @@
             session_start();
             $_SESSION['id']=$login;
             setcookie('id', $_SESSION['id'], time() +365*24*3600, null, null, false, true);
-            header('Location: http://localhost/ISCC/MyDevBlog/BackOffice/redaction.php?');
+            header('Location: http://localhost/ISCC/MyDevBlog/BackOffice/ajout-article.php?');
             exit();
         }
             
