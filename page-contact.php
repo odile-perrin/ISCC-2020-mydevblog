@@ -17,7 +17,7 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
       $message = 'Votre message a bien été envoyé !';
 
    } else {
-      $message = 'Veuillez remplir tous les champs';
+      $message = 'Veuillez remplir tous les champs !';
    }
 }
 ?>
@@ -25,10 +25,6 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
 <title>Contact</title>
     <!DOCTYPE html>
 <html>
-<head>
-   <title>Rédaction</title>
-   <meta charset="utf-8">
-</head>
 <body>
     <h2>Contact</h2>
    <form method="POST">

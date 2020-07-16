@@ -1,5 +1,5 @@
-<?php 
-echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
+<html>
+<link rel="stylesheet" href="style/style.css">
 <?php
     $login=$_POST['login'];
     $password=$_POST['password'];
@@ -19,3 +19,4 @@ echo'<link href="style/style.css" rel="stylesheet" type = "text/css">'; ?>
             echo '<p><A HREF="http://localhost/ISCC/MyDevBlog/index.php?page=accueil">Vous n\'êtes pas admin ?</A></p>';
         }
 ?>
+</html>

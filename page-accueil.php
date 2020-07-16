@@ -13,7 +13,9 @@
 Je m'appelle Odile et suis passionnée de cosmétiques. Si vous aimez le maquillage et la beauté, vous vous sentirez chez vous ici.
 Venez explorer les dernières nouveautés en matière de beauté avec moi !
 <br>Odile.<br><br>
-    <h3>Mes derniers articles</h3>
+    <div class="bloc">
+        <center>
+    <h6>Mes derniers articles</h6>
       <?php 
       $bdd = new PDO("mysql:host=localhost;dbname=blog-odile;charset=utf8", "root", "");
       $articles = $bdd->query('SELECT * FROM articles ORDER BY date_time_post DESC LIMIT 0,5');
@@ -23,9 +25,7 @@ Venez explorer les dernières nouveautés en matière de beauté avec moi !
       while($a = $articles->fetch()) { ?>
       <a href="article.php?id=<?= $a['id'] ?>"><?= $a['titre'] ?></a><br>
       <?php } ?>
-
-   <?php
-    
-?>
+      </center>
+      </div>
 </body>
 </html>

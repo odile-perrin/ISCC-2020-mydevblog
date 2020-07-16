@@ -1,9 +1,6 @@
-<?php
-echo'<link href="style/style.css" rel="stylesheet" type = "text/css">';
-?>
-
 <!doctype html>
 <html>
+    <link rel="stylesheet" href="style/style.css">
     <title>Connexion Admin</title>
     <meta charset="utf-8">
 
