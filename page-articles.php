@@ -11,7 +11,7 @@ if (!$connect) {
    echo "Échec de la connexion : ".mysqli_connect_error(); 
    exit(); 
 } 
-$requete = "SELECT * FROM articles ORDER BY date_time_post"; 
+$requete = "SELECT * FROM articles ORDER BY date_time_post DESC"; 
    if ($resultat = mysqli_query($connect,$requete)) { 
       date_default_timezone_set('Europe/Paris'); 
 
