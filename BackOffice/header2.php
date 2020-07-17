@@ -5,7 +5,9 @@ echo'<link href="../style/style.css" rel="stylesheet" type = "text/css">'; ?>
 <meta charset="utf-8">
 <header>
         <center>
-
+        <div id="blocimage"> 
+        <BR><h1>Blog d'Oden admin</h1>
+        </div>
     
         <nav class=menu1>
             
