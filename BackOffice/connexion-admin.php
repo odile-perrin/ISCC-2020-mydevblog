@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
-    <link rel="stylesheet" href="style/style.css">
-    <title>Connexion Admin</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Connexion admin</title>
+    <h6>Connexion admin</h6>
     <meta charset="utf-8">
 
 <body>

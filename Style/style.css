@@ -61,10 +61,6 @@ p{
     padding-right: 10%;
 }
 
-.articles{
-    border:2px solid #b9755e;
-}
-
 a { color: black;
     text-decoration: none;
     text-align: center;
@@ -171,6 +167,27 @@ a:hover{
     #password:hover{
         border:2px solid #b9755e;
     }
+
+    #loginn{
+        width:250px;
+        height:30px;
+        border:2px solid #b9755e;
+        margin-bottom: 10px;
+    }
+    #loginn:hover{
+        border:2px solid #b9755e;
+    }
+
+    #passwordd{
+        width:250px;
+        height:30px;
+        border:2px solid #b9755e;
+        margin-bottom: 10px;
+    }
+    #passwordd:hover{
+        border:2px solid #b9755e;
+    }
+
 
 .insta:hover{
     border:2px solid white;

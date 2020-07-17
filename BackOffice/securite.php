@@ -1,4 +1,5 @@
 <html>
+<link rel="stylesheet" href="../style/style.css">
 <?php
     $login=$_POST['login'];
     $password=$_POST['password'];
@@ -14,8 +15,8 @@
             
 
         else{
-            echo '<h3>L\'accès est réservé aux admins</h3>';
-            echo '<p><A HREF="http://localhost/ISCC/MyDevBlog/index.php?page=accueil">Vous n\'êtes pas admin ?</A></p>';
+            echo '<h6>L\'accès est réservé aux admins</h6>';
+            echo '<A HREF="http://localhost/ISCC/MyDevBlog/index.php?page=accueil">Vous n\'êtes pas admin ?</A>';
         }
 ?>
 </html>
